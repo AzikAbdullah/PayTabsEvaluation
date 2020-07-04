@@ -57,7 +57,7 @@ class ViewController: UIViewController {
         self.initialSetupViewController = PTFWInitialSetupViewController.init(
             bundle: bundle,
             andWithViewFrame: self.view.frame,
-            andWithAmount: 51.0,
+            andWithAmount: floatAmount,
             andWithCustomerTitle: customerNameTextField.text ?? "",
             andWithCurrencyCode: kDefaultCurrency,
             andWithTaxAmount: floatAmount,
